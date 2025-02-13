@@ -53,6 +53,15 @@ body {
   font-size: 64px;
   line-height: 1.2em;
 }
+
+.content-item { 
+  display: none;
+}
+
+.content-item.content-item__active { 
+  display: inline-block;
+}
+
 /* Header Section */
 
 .header {
@@ -206,6 +215,10 @@ body {
   padding: 8px;
   transition: all 0.3s ease;
   padding: 55px 55px;
+}
+
+.choose-color__btn--active { 
+  display: none;
 }
 
 .choose-color__btn img {

@@ -21,9 +21,7 @@
       <div class="container">
         <div class="header__top">
           <a href="https://www.apple.com/ua/" target="_blank" class="logo">
-            <img
-              src="/images/logo/logo.svg"
-              alt="Apple Company Logo"
+            <img src="/images/logo/logo.svg" alt="Apple Company Logo"
           /></a>
 
           <nav class="menu">
@@ -61,11 +59,26 @@
             ><span class="title--m">M</span><span class="title--ax">AX</span>
           </h1>
           <div class="header__content-images">
-            <!-- <img src="/images/frontPods/airpodsblack.png" /> -->
-            <img src="/images/frontPods/airpodsblue.png" />
-            <!-- <img src="/images/frontPods/airpodsgreen.png" /> -->
-            <!-- <img src="/images/frontPods/airpodspink.png" /> -->
-            <!-- <img src="/images/frontPods/airpodssilver.png" /> -->
+            <img
+              class="content-item color--black"
+              src="/images/frontPods/airpodsblack.png"
+            />
+            <img
+              class="content-item color--blue content-item__active"
+              src="/images/frontPods/airpodsblue.png"
+            />
+            <img
+              class="content-item color--green"
+              src="/images/frontPods/airpodsgreen.png"
+            />
+            <img
+              class="content-item color--pink"
+              src="/images/frontPods/airpodspink.png"
+            />
+            <img
+              class="content-item color--white"
+              src="/images/frontPods/airpodssilver.png"
+            />
           </div>
         </div>
       </div>
@@ -84,37 +97,57 @@
           </p>
 
           <div class="choose-color__list">
-            <button type="button" class="choose-color__btn">
+            <button
+              type="button"
+              class="choose-color__btn"
+              data-button="color--black"
+            >
               <img
                 src="images/chooseColor/black.png"
                 alt="Black Apple AirPods Max"
               />
             </button>
 
-            <button type="button" class="choose-color__btn">
+            <button
+              type="button"
+              class="choose-color__btn"
+              data-button="color--green"
+            >
               <img
                 src="images/chooseColor/green.png"
                 alt="Green Apple AirPods Max"
               />
             </button>
 
-            <button type="button" class="choose-color__btn">
+            <button
+              type="button"
+              class="choose-color__btn"
+              data-button="color--pink"
+            >
               <img
                 src="images/chooseColor/pink.png"
                 alt="pink Apple AirPods Max"
               />
             </button>
 
-            <button type="button" class="choose-color__btn">
+            <button
+              type="button"
+              class="choose-color__btn"
+              data-button="color--white"
+            >
               <img
                 src="images/chooseColor/white.png"
                 alt="white Apple AirPods Max"
               />
             </button>
 
-            <!-- <button type="button" class="choose-color__btn">
+            <button
+              type="button"
+              class="choose-color__btn choose-color__btn--active"
+              data-button="color--blue"
+            >
               <img src="images/chooseColor/blue.png" alt="Blue AirPods" />
-            </button> -->
+            </button>
           </div>
         </div>
       </section>
@@ -152,13 +185,29 @@
             </div>
             <img
               src="/images/sideImages/side-blue.png"
-              alt=""
-              class=""
+              alt="Side photo"
+              class="content-item color--blue content-item__active"
             />
-            <!-- <img src="" alt="" class="" />
-            <img src="" alt="" class="" />
-            <img src="" alt="" class="" />
-            <img src="" alt="" class="" /> -->
+            <img
+              src="/images/sideImages/side-black.png"
+              alt="Side photo"
+              class="content-item color--black"
+            />
+            <img
+              src="/images/sideImages/side-pink.png"
+              alt="Side photo"
+              class="content-item color--pink"
+            />
+            <img
+              src="/images/sideImages/side-green.png"
+              alt="Side photo"
+              class="content-item color--green"
+            />
+            <img
+              src="/images/sideImages/side-silver.png"
+              alt="Side photo"
+              class="content-item color--white"
+            />
           </div>
         </div>
       </section>
@@ -175,13 +224,30 @@
             enter a low-power state to save energy.
           </p>
           <img
+            class="content-item color--blue content-item__active"
             src="/images/caseImg/case-blue.jpg"
             alt="Blue Apple Case"
           />
-          <!-- <img src="/images/caseImg/case-pink.jpg" alt="Pink Apple Case" />
-          <img src="/images/caseImg/case-green.jpg" alt="Green Apple Case" />
-          <img src="/images/caseImg/case-black.jpg" alt="Black Apple Case" />
-          <img src="/images/caseImg/case-silver.jpg" alt="Silver Apple Case" /> -->
+          <img
+            class="content-item color--pink"
+            src="/images/caseImg/case-pink.jpg"
+            alt="Pink Apple Case"
+          />
+          <img
+            class="content-item color--green"
+            src="/images/caseImg/case-green.jpg"
+            alt="Green Apple Case"
+          />
+          <img
+            class="content-item color--black"
+            src="/images/caseImg/case-black.jpg"
+            alt="Black Apple Case"
+          />
+          <img
+            class="content-item color--white"
+            src="/images/caseImg/case-silver.jpg"
+            alt="Silver Apple Case"
+          />
 
           <h2 class="energy__title main__title">
             Stayin' alive, stayin' alive.
@@ -227,9 +293,7 @@
           Or call <a href="tel:800207758">800 207 758</a>
         </p>
         <a href="https://www.apple.com/ua/" target="_blank" class="logo">
-          <img
-            src="/images/logo/logo-white.svg"
-            alt="Apple Company Logo"
+          <img src="/images/logo/logo-white.svg" alt="Apple Company Logo"
         /></a>
 
         <ul class="footer__list">
@@ -252,6 +316,6 @@
 
     <!-- JavaScript Connection -->
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
