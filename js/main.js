@@ -6,6 +6,7 @@ chooseColor.forEach(function (el) {
 });
 
 function open(evt) {
+    
   const target = evt.currentTarget;
   const btn = target.dataset.button;
 
